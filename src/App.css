@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.count-main-container {
+  width: 40vw;
+  height: 80vh;
+  background-color: #ffc533;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-top: 20px;
+}
+
+.input-main-container {
+  width: 40vw;
+  height: 80vh;
+  background-color: #0f172a;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.count-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #334155;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.char-input-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #ffbf1f;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.input-el {
+  width: 80%;
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #475569;
+  padding: 8px;
+  border-radius: 6px;
+  border: 0px;
+  padding: 10px;
+}
+
+.add-button {
+  border: 0px;
+  cursor: pointer;
+  color: #1e293b;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Roboto';
+  background-color: #ffc533;
+  border-radius: 5px;
+  width: 15%;
+}
+
+.char-result-container {
+  width: 100%;
+  height: 400px;
+  background-color: #ffbf1f;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.no-input {
+  width: 80%;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+.count {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #334155;
+  text-align: center;
+  margin-bottom: 40px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.user-input {
+  margin: 0px;
+}
